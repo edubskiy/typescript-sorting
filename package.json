@@ -1,0 +1,27 @@
+{
+  "name": "typescript-sorting",
+  "version": "1.0.0",
+  "description": "Implement different kinds of sorting with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:build": "tsc -W",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edubskiy/typescript-sorting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edubskiy/typescript-sorting/issues"
+  },
+  "homepage": "https://github.com/edubskiy/typescript-sorting#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
